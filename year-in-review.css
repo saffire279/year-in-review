@@ -1,0 +1,119 @@
+/* gradient = background-image: linear-gradient(to bottom right, color 1, color 2 */
+/* vertical text = writing-mode: vertical-rl; text-orientation: mixed; */
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Montserrat&display=swap');
+
+* {
+    font-family: 'Archivo Black', sans-serif;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+p {
+    font-size: 18px;
+    font-family: 'Montserrat';
+    font-weight: 550;
+}
+
+h1 {
+    font-size: 67.3px;
+}
+
+h2 {
+    font-size: 50.5px;
+}
+
+h3 {
+    font-size: 37.9px;
+}
+
+h4 {
+    font-size: 28.4px;
+}
+
+h5 {
+    font-size: 21.3px;
+}
+
+h6 {
+    font-size: 16px;
+}
+
+ul {
+    font-size: 16px;
+}
+
+.header-section, .topic-names-section, .table-of-contents-section, .biology-section, .physics-section, .geology-section, .exc-exp-section {
+    padding-left: 200px;
+    padding-right: 200px;
+    margin: 0px;
+    border: 0px;
+}
+
+.header-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+    background-image: linear-gradient( #5D7FEF, #A254F8);
+}
+
+/* gradient = background-image: linear-gradient(to bottom right, color 1, color 2 */
+
+.header-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.yir-title {
+    width: 280px;
+    height: 175px;
+    margin-right: 0px;
+    margin: 0px;
+}
+
+.year {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    font-size: 55px;
+    margin: 0px;
+}
+/* vertical text + writing-mode: vertical-rl; text-orientation: mixed; */
+
+.topic-names-section {
+    background-color: #A254F8;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 50px;
+}
+
+.row-one {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 85px;
+}
+
+.topic-name-phy {
+    align-self: center;
+}
+
+.topic-name-geo, .topic-name-bio, .topic-name-phy {
+    margin: 0px;
+}
+
+.table-of-contents-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.table-of-contents-section h5 {
+    margin: 10px;
+}
