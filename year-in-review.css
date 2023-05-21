@@ -46,7 +46,7 @@ ul {
     font-size: 16px;
 }
 
-.header-section, .topic-names-section, .table-of-contents-section, .biology-section, .physics-section, .geology-section, .exc-exp-section {
+.header-section, .topic-names-section, .table-of-contents-section, .biology-section, .physics-section, .geology-section, .exc-exp-section, .picture-section {
     padding-left: 200px;
     padding-right: 200px;
     margin: 0px;
@@ -109,11 +109,17 @@ ul {
 
 .table-of-contents-section {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
 }
 
-.table-of-contents-section h5 {
-    margin: 10px;
+img {
+    max-width: 500px;
+}
+
+.picture-section {
+    display: flex;
+    flex-flow: column wrap;
+    gap: 32px;
+    align-items: center;
 }
